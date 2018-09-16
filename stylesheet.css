@@ -1,0 +1,10 @@
+body {
+    background-color: #B9A779;
+    color: white;
+    padding: 50px;
+}
+
+.fancy {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: italic
+}

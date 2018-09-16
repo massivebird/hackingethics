@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@VERSION_NUMBER/dist/typeit.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.hacking.home.css">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu Mono' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet'>
+    <script src="typeit.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <!--                            NOT NECESSARY ON HOME PAGE
+            <div class="navbar-header">
+                <a class="navbar-brand fancy" href="#home">Hacking Ethics with Garrett Drake</a>
+            </div>
+            -->
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">What is Hacking?</a></li>
+                <li><a href="#">Types of Hackers</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="hero-image-div" class="container-fluid nopad">
+        <div id="hero-header" class="container absolute col-lg-6">
+            <section>
+                <h1 id="animate-default">The Ethics of a Hacker</h1>
+            </section>
+            <section>
+                <h3 id="animate-small">with Garrett Drake</h3 id="drake">
+            </section>
+        </div>
+    </div>
+
+    <div id="quote" class="container-fluid">
+        <p id="quote" class="col-lg-4 col-md-2">"Technology is nothing. What's important is that you have a faith in people,
+            that they're basically good and smart, and if you give them tools, they'll do wonderful things with them."<br><span
+                id="quote-said">- Steve Jobs</span></p>
+    </div>
+
+    <div id="home3" class="container-fluid col-lg-8 col-lg-offset-2">
+        <div class="row">
+            <p>The world is full of constantly-evolving technology and networks that span the globe. This creates a growing
+                <span class="bluetxt">responsibility</span>
+                for those who control and oversee our data. Should those people <span class="redtxt">betray</span> our trust
+                or take advantage of their power, the consequences would be dire. As more and more devices and services integrate
+                themselves into the globalized system, those repercussions grow ever more dangerous. We must trust ourselves
+                and those around us to keep our information and identities safe.</p>
+            <p class="notoppadpls">
+                This website describes what hacking is, what types of hackers exist, and the consequences / benefits of legal and illegal
+                use of hacking skills. It is crucial that those who learn how to keep our data safe do not choose to become
+                criminals, using the same skills that others use for good.</p>
+        </div>
+    </div>
+
+    <!-- END OF HOME, BEGINNING OF W I H -->
+
+    <div id="hero-image-div-2" class="container-fluid nopad col-lg-12">
+        <div id="hero-header-2" class="container absolute col-lg-6">
+            <section>
+                <h1 id="animate-default">[hak-ing]</h1>
+            </section>
+            <h3>a. to modify (a computer program or electronic device) or write (a program) in a <span class="bluetxt">skillful
+                    or clever way</span></h3>
+                    <h3>b. to circumvent security and break into 
+                        (a network, computer, file, etc.), usually with 
+                        <span class="redtxt">malicious</span> intent</h3>
+        </div>
+    </div>
+
+    <script>
+        window.instance = new TypeIt('#animate-default', {
+            speed: 80,
+            startDelay: 0,
+            lifeLike: true,
+            autoStart: false,
+        });
+
+        window.instance = new TypeIt('#animate-small', {
+            speed: 80,
+            startDelay: 3025,
+            lifeLike: true,
+            autoStart: false,
+            cursor: false,
+        });
+    </script>
+
+</body>
+
+</html>
