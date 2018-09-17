@@ -24,10 +24,7 @@
             </div>
             -->
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">What is Hacking?</a></li>
-                <li><a href="#">Types of Hackers</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#">a website created by Garrett Drake</a></li>
             </ul>
         </div>
     </nav>
@@ -44,9 +41,10 @@
     </div>
 
     <div id="quote" class="container-fluid">
-        <p id="quote" class="col-lg-4 col-md-2">"Technology is nothing. What's important is that you have a faith in people,
-            that they're basically good and smart, and if you give them tools, they'll do wonderful things with them."<br><span
-                id="quote-said">- Steve Jobs</span></p>
+        <p id="quote" class="col-lg-4 col-md-2 italic">"Technology is nothing. What's important is that you have a faith
+            in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with
+            them."
+            <br><span id="quote-said">- Steve Jobs</span></p>
     </div>
 
     <hr>
@@ -71,13 +69,37 @@
     <div id="hero-image-div-2" class="container-fluid nopad col-lg-12">
         <div id="hero-header-2" class="container absolute col-lg-6">
             <section>
-                <h1 id="animate-default">[hak-ing]</h1>
+                <h1 id="animate-default" class="italic">[hak-ing]</h1>
             </section>
-            <h3>a. to modify (a computer program or electronic device) or write (a program) in a <span class="bluetxt">skillful
+            <h3 class="italic">a. to modify (a computer program or electronic device) or write (a program) in a <span class="bluetxt">skillful
                     or clever way</span></h3>
-                    <h3>b. to circumvent security and break into 
-                        (a network, computer, file, etc.), usually with 
-                        <span class="redtxt">malicious</span> intent</h3>
+            <h3 class="italic">b. to circumvent security and break into (a network, computer, file, etc.), usually with
+                <span class="redtxt">malicious</span> intent</h3>
+        </div>
+    </div>
+
+    <div>
+        <div id="hats" class="row">
+            <div id="whitehat" class="container-fluid nopad col-lg-6">
+                <div class="txtcontainer col-lg-12">
+                    <h2 id="animate-hat"class="italic hatheader">What is <span class="bluetxt">white hat hacking?</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div id="blackhat" class="container-fluid nopad col-lg-6">
+                    <div class="txtcontainer col-lg-12">
+                        <h2 id="animate-hat" class="italic hatheader">What is <span class="redtxt">black hat hacking?</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
         </div>
     </div>
 
@@ -91,10 +113,17 @@
 
         window.instance = new TypeIt('#animate-small', {
             speed: 80,
-            startDelay: 3025,
+            startDelay: 1800,
             lifeLike: true,
             autoStart: false,
             cursor: false,
+        });
+
+        window.instance = new TypeIt('#animate-hat', {
+            speed: 50,
+            startDelay: 0,
+            lifeLike: true,
+            autoStart: false,
         });
     </script>
 
