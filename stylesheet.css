@@ -79,6 +79,10 @@ span#quote-said {
     text-align: right;
 }
 
+hr {
+    width: 20%
+}
+
 span.bluetxt {
     color: #3bc4b9
 }
