@@ -128,7 +128,7 @@ div.row p:first-child {
 
 #hero-image-div-2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://i.imgur.com/35pycLl.jpg");
-    height: 30%;
+    height: 35%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -147,7 +147,7 @@ div#whitehat {
     background-color: #3a3a3a;
 }
 
-div#whitehat div.txtcontainer {
+div.txtcontainer {
     text-align: left;
 }
 
