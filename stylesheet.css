@@ -44,6 +44,10 @@ p {
     font-size: 20px;
 }
 
+p.indent {
+    text-indent: 50px;
+}
+
 .italic {
     font-style: italic;
 }
@@ -75,6 +79,7 @@ p#quote {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 807.55px;
 }
 
 span#quote-said {
@@ -98,6 +103,12 @@ span.redtxt {
     color: #cf5959
 }
 
+img.color {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
 div#home3 {
     padding: 0 50px;
     max-height: 900px;
@@ -111,7 +122,6 @@ div.row p {
     position: relative;
     margin-bottom: 0px;
     text-align: justify;
-    text-indent: 50px;
     line-height: 1.5;
     vertical-align: middle;
     max-height: 400px;
@@ -123,8 +133,7 @@ div.row p:first-child {
     padding: 35px 45px 35px 50px;
 }
 
-/* END OF HOME -------------------- */
-/* BEGINNING OF W I H ------------- */
+/* BEGIN: WHAT IS HACKING ------------- */
 
 #hero-image-div-2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://i.imgur.com/35pycLl.jpg");
@@ -161,4 +170,25 @@ div.txtcontainer p {
 
 .hatheader {
     text-align: center;
+}
+
+/* BEGIN: LEGAL -------------------- */
+
+div#legalleft div.txtcontainer {
+    padding: 0px 45px 35px 50px;
+    position: relative;
+    margin-bottom: 0px;
+    text-align: justify;
+    line-height: 1.5;
+    vertical-align: middle;
+    max-height: 400px;
+    overflow: hidden;
+    font-size: 22px;
+}
+
+img#bear {
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }

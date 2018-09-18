@@ -18,13 +18,8 @@
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
-            <!--                            NOT NECESSARY ON HOME PAGE
-            <div class="navbar-header">
-                <a class="navbar-brand fancy" href="#home">Hacking Ethics with Garrett Drake</a>
-            </div>
-            -->
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">a website created by Garrett Drake</a></li>
+                <li><a href="https://github.com/parrotflakes/hackingethics">a website created by Garrett Drake</a></li>
             </ul>
         </div>
     </nav>
@@ -32,7 +27,7 @@
     <div id="hero-image-div" class="container-fluid nopad">
         <div id="hero-header" class="container absolute col-lg-6">
             <section>
-                <h1 id="animate-default">Hacking Ethics</h1>
+                <h1 id="animate-default">The Moral Code</h1>
             </section>
             <section>
                 <h3 id="animate-small">with Garrett Drake</h3 id="drake">
@@ -41,7 +36,7 @@
     </div>
 
     <div id="quote" class="container-fluid">
-        <p id="quote" class="col-lg-4 col-md-2 italic">"Technology is nothing. What's important is that you have a faith
+        <p id="quote" class="col-lg-6 col-md-6 italic">"Technology is nothing. What's important is that you have a faith
             in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with
             them."
             <br><span id="quote-said">- Steve Jobs</span></p>
@@ -51,16 +46,20 @@
 
     <div id="home3" class="container-fluid col-lg-8 col-lg-offset-2">
         <div class="row">
-            <p>The world is full of constantly-evolving technology and networks that span the globe. This creates a growing
+            <p class="indent">The world is full of constantly-evolving technology and networks that span the globe. This
+                creates a growing
                 <span class="bluetxt">responsibility</span>
-                for those who control and oversee our data. Should those people <span class="redtxt">betray</span> our trust
+                for those who control and oversee our data. Should these people <span class="redtxt">betray</span> our trust
                 or take advantage of their power, the consequences would be dire. As more and more devices and services integrate
                 themselves into the globalized system, those repercussions grow ever more dangerous. We must trust ourselves
                 and those around us to keep our information and identities safe.</p>
-            <p class="notoppadpls">
+            <p class="notoppadpls indent">
                 This website describes what hacking is, what types of hackers exist, and the consequences / benefits of legal and illegal
                 use of hacking skills. It is crucial that those who learn how to keep our data safe do not choose to become
                 criminals, using the same skills that others use for good.</p>
+            <p class="notoppadpls indent">It is crucial that those with potentially dangerous skillsets are aware of their
+                authority over the modern world, lest they abuse it.
+            </p>
         </div>
     </div>
 
@@ -78,37 +77,58 @@
         </div>
     </div>
 
-    <div>
-        <div id="hats" class="row">
-            <div id="whitehat" class="container-fluid nopad col-lg-6">
-                <div class="txtcontainer col-lg-12">
-                    <h2 id="animate-hat" class="italic hatheader">What is <span class="bluetxt">white hat hacking?</span></h2>
-                    <p>White hat hackers utilize their skills and knowledge in a safe environment. These are the specialists
-                        who make a career out of their otherwise alarming skillsets. Companies and other entities hire them
-                        (often through generous payment) to find holes in data bases and security systems, report the issues,
-                        and eliminate the vulnerabilities. The <span class="bluetxt">mutual arrangement</span> between the
-                        hacker and the client is what makes their work perfectly <span class="bluetxt">legal</span> and
-                        beneficial to both parties.</p>
-                    <p>Large corportations and government bodies often run <span class="italic">"bug bounties"</span> where
-                        both amateur and experienced hackers are invited to find holes and weaknesses within a designated site or domain. If the
-                        rules are followed, then these people may be subsequently rewarded for their efforts. Their goal
-                        is to protect confidential and personal information from getting in the hands of rogue hackers. 
+    <div id="hats" class="row">
+        <div id="whitehat" class="container-fluid nopad col-lg-6">
+            <div class="txtcontainer col-lg-12">
+                <h2 id="animate-hat" class="italic hatheader">What is <span class="bluetxt">white hat hacking?</span></h2>
+                <p class="indent">White hat hackers utilize their skills and knowledge in a safe environment. These are the
+                    specialists who make a career out of their otherwise alarming skillsets. Companies and other entities
+                    hire them (often through generous payment) to find holes in data bases and security systems, report the
+                    issues, and eliminate the vulnerabilities. The <span class="bluetxt">mutual arrangement</span> between
+                    the hacker and the client is what makes their work perfectly <span class="bluetxt">legal</span> and beneficial
+                    to both parties.</p>
+                <p class="indent">Large corportations and government bodies often run <span class="italic">"bug bounties"</span>
+                    where both amateur and experienced hackers are invited to find holes and weaknesses within a designated site or domain. If
+                    the rules are followed, then these people may be subsequently <span class="bluetxt">rewarded</span>
+                    for their efforts. Their goal is to protect confidential and personal information from getting in the hands of rogue hackers.
+                </p>
+            </div>
+        </div>
+        <div id="blackhat" class="container-fluid nopad col-lg-6">
+            <div class="txtcontainer col-lg-12">
+                <h2 id="animate-hat" class="italic hatheader">What is <span class="redtxt">black hat hacking?</span></h2>
+                <p class="indent">Black hat hackers possess the same skills as white hats. However, their work is done not
+                    to secure systems, but to take advantage of them. Often with the goals of financial gain, political attention,
+                    or sabotage, black hats seek control over entire systems and databases, attempting to <span class="redtxt">illegally</span>
+                    steal and sell personal information, forcefully promote their ideals, and damage the reputation of large entities.</p>
+                <p class="indent">Similarly, <span class="italic redtxt">grey hat hackers</span> aim to surreptitiously identify
+                    vulnerabilities within various websites and systems. However, instead of immediately stealing information,
+                    they contact the server owner or entity, demanding money for the unspecified issue. Should the offer
+                    be denied, the hackers may threaten to leak the vulnerability or deal damage to the system. Due to the
+                    lack of a mutual agreement or pre-requested permission, this is highly <span class="redtxt">illegal</span>.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="legal" class="container-fluid nopad col-lg-12">
+        <div class="row">
+            <div id="legalleft" class="container-fluid nopad">
+                <div class="txtcontainer col-lg-8">
+                    <h2 class="italic">The cyberspace is not all fun and games.</h2>
+                    <p class="indent">The internet is no longer a simple resource for information, but a tool, a utility,
+                        and a keepsafe for our valuables. Anyone can choose to store nothing at all - or company records,
+                        credit card numbers, and social security numbers. That being said, accessing foreign computer systems
+                        without authorization is a <span class="redtxt">crime punishable by law</span>. The cyberspace holds
+                        belongings just as important as those in the real world - and trespassers are promptly charged.</p>
+                    <p class="indent">Computer crimes can range anywhere from identity theft, piracy, spreading malware or
+                        viruses, and even espionage. In the State of Michigan, a large variety of actions are considered
+                        cybercrimes. These can go on your legal record as either misdemeanors or felonies depending on how
+                        much money is involved in the crime itself. Fines and jail time are also possible consequences and
+                        can vary in intensity.
                     </p>
                 </div>
-            </div>
-            <div id="blackhat" class="container-fluid nopad col-lg-6">
-                <div class="txtcontainer col-lg-12">
-                    <h2 id="animate-hat" class="italic hatheader">What is <span class="redtxt">black hat hacking?</span></h2>
-                    <p>Black hat hackers possess the same skills as white hats. However, their work is done not to secure
-                        systems, but to take advantage of them. Often with the goals of financial gain, political attention,
-                        or sabotage, black hats seek control over entire systems and databases, attempting to <span class="redtxt">illegally</span>
-                        steal and sell personal information, forcefully promote their ideals, and damage the reputation of large entities.</p>
-                    <p>Similarly, <span class="italic redtxt">grey hat hackers</span> aim to surreptitiously identify vulnerabilities
-                        within various websites and systems. However, instead of immediately stealing information, they contact
-                        the server owner or entity, demanding money for the unspecified issue. Should the offer be denied,
-                        the hackers may threaten to leak the vulnerability or deal damage to the system. Due to the lack
-                        of a mutual agreement or pre-requested permission, this is highly <span class="redtxt">illegal.</span></p>
-
+                <div id="beardiv" class="col-lg-4"><img id="bear" class="color" src="../../../../Pictures/temp/bear.png" alt="plsnodownloadbear">
                 </div>
             </div>
         </div>
@@ -142,7 +162,7 @@
 
 ON HAT HACKERS: https://us.norton.com/internetsecurity-emerging-threats-what-is-the-difference-between-black-white-and-grey-hat-hackers.html
 
-
+TYPING EFFECT: https://typeitjs.com/
 
 -->
 
