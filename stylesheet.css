@@ -64,7 +64,7 @@ p.indent {
   }
 
 div#quote {
-    height: 150px;
+    height: 115px;
     width: 100%;
     overflow: hidden;
     margin-top: 17.15px;
@@ -85,7 +85,6 @@ p#quote {
 span#quote-said {
     color: #b5b5b5;
     margin-left: 70%;
-    font-style: normal;
     text-align: right;
 }
 
@@ -175,7 +174,7 @@ div.txtcontainer p {
 /* BEGIN: LEGAL -------------------- */
 
 div#legalleft div.txtcontainer {
-    padding: 0px 45px 35px 50px;
+    padding: 0 0 35px 50px;
     position: relative;
     margin-bottom: 0px;
     text-align: justify;
@@ -184,6 +183,16 @@ div#legalleft div.txtcontainer {
     max-height: 400px;
     overflow: hidden;
     font-size: 22px;
+}
+
+div#legalleft div.txtcontainer p {
+    padding-right: 0;
+    padding-left: 17px;
+}
+
+div#legalleft div.txtcontainer h2 {
+    padding-left: 10px;
+    margin-bottom: 20px
 }
 
 img#bear {
