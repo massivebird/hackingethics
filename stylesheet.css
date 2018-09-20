@@ -3,7 +3,6 @@ body, html {
     color: white;
     height: 100%;
     font-family: 'Athiti';
-    overflow-x: hidden;
 }
 
 .navbar-inverse {
@@ -125,7 +124,6 @@ div.row p {
     line-height: 1.5;
     vertical-align: middle;
     max-height: 400px;
-    overflow: hidden;
     font-size: 22px;
 }
 
@@ -173,6 +171,10 @@ div.txtcontainer p {
 }
 
 /* BEGIN: LEGAL -------------------- */
+
+div#legalleft {
+    overflow-x: hidden
+}
 
 div#legalleft div.txtcontainer {
     padding: 30px 0 0 50px;
