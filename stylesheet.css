@@ -230,6 +230,19 @@ div#whygood div.txtcontainer p {
     text-indent: 50px
 }
 
+div#contractimg {
+    overflow: hidden;
+}
+
+div#contractimg img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 481.5px;
+    width: 300%;
+    margin-left: -300px;
+}
+
 /* BEGIN: CITATION ------------------------ */
 
 div#citation {
@@ -243,7 +256,6 @@ div#citation div.txtcontainer {
     text-align: justify;
     line-height: 1.5;
     vertical-align: middle;
-    max-height: 400px;
 }
 
 div#citation div.txtcontainer h3 {
