@@ -277,13 +277,18 @@
         });
 
         window.instance = new TypeIt('#animate-cyberspace', {
-            strings: ["The internet", "The cyberspace is not all fun and games."],
             speed: 50,
             startDelay: 0,
             lifeLike: true,
             autoStart: false,
             breakLines: false,
-        });
+        })
+        .type('The internet')
+        .pause(200)
+        .options({speed: 150})
+        .delete(8)
+        .options({speed: 50})
+        .type('cyberspace is not all fun and games.');
 
         window.instance = new TypeIt('#animate-contracted', {
             strings: ["Why do contracted work?"],
